@@ -64,8 +64,8 @@ def train(args):
 	model.cuda()
 
 	id_tensor = torch.zeros((1, 80), dtype=torch.float32, requires_grad=True, device='cuda')
-	tex_tensor = torch.zeros((1, 64), dtype=torch.float32, requires_grad=True, device='cuda')
-	exp_tensor = torch.zeros((1, 80), dtype=torch.float32, requires_grad=True, device='cuda')
+	tex_tensor = torch.zeros((1, 80), dtype=torch.float32, requires_grad=True, device='cuda')
+	exp_tensor = torch.zeros((1, 64), dtype=torch.float32, requires_grad=True, device='cuda')
 	rot_tensor = torch.zeros((1, 3), dtype=torch.float32, requires_grad=True, device='cuda')
 	gamma_tensor = torch.zeros((1, 27), dtype=torch.float32, requires_grad=True, device='cuda')
 	trans_tensor = torch.zeros((1, 3), dtype=torch.float32, requires_grad=True, device='cuda')
