@@ -21,7 +21,7 @@ The framework only uses Pytorch modules and a differentiable renderer from pytor
 ### Requirements
 - [pytorch3d](https://github.com/facebookresearch/pytorch3d) It might require a specific version of Pytorch to make pytorch3d run succussfully on gpus, please follow the official instructions.
 - Please refer to "requirements.txt" for other dependences.
-- [Basel Face Model 2009 (BFM09)](https://faces.dmi.unibas.ch/bfm/main.php?nav=1-0&id=basel_face_model)
+- [Basel Face Model 2009 (BFM09)](https://faces.dmi.unibas.ch/bfm/index.php?nav=1-2&id=downloads)
 - [Expression Basis](https://github.com/Juyong/3DFace) extra expression basis.
 
 ## How to use
