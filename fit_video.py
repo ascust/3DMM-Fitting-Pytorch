@@ -277,7 +277,7 @@ def process_video(args, device):
     mtcnn = MTCNN(device=device, select_largest=False)
 
     fa = face_alignment.FaceAlignment(
-        face_alignment.LandmarksType._3D, flip_input=True, device=device)
+        face_alignment.LandmarksType.THREE_D, flip_input=True, device=device)
 
     frame_ind = 0
 

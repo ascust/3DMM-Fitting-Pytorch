@@ -16,7 +16,7 @@ def fit(args):
     print('loading models')
     mtcnn = MTCNN(device=args.device, select_largest=False)
     fa = face_alignment.FaceAlignment(
-        face_alignment.LandmarksType._3D, flip_input=False)
+        face_alignment.LandmarksType.THREE_D, flip_input=False)
     recon_model = get_recon_model(model=args.recon_model,
                                   device=args.device,
                                   batch_size=1,
